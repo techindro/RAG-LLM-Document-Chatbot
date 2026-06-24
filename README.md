@@ -52,22 +52,4 @@ cd document-chatbot
 
 ---
 
-### 🚀 **Quick Commands**
-
-```bash
-# Setup
-mkdir document-chatbot
-cd document-chatbot
-python -m venv venv
-venv\Scripts\activate  # Windows
-source venv/bin/activate  # Mac/Linux
-pip install -r requirements.txt
-
-# Configuration
-echo HUGGINGFACE_API_KEY=your-key > .env
-mkdir data
-cp your-document.pdf data/
-
-# Run
-python ingest.py
 streamlit run app.py
