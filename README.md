@@ -1,5 +1,3 @@
-# RAG-LLM-Document-Chatbot
-
 <div align="center">
   
   # 🤖 RAG Chatbot
