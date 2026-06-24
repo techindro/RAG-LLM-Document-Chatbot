@@ -1,8 +1,10 @@
+# Document Chatbot
+
 <div align="center">
   
-  # 🤖 RAG Chatbot
+  # 🤖 Document Chatbot
   
-  ### *Apni PDF se baat karein, smart jawab paayein*
+  ### *Talk to your PDF files and get smart answers*
   
   [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
   [![Streamlit](https://img.shields.io/badge/Streamlit-1.28.0-red.svg)](https://streamlit.io/)
@@ -11,95 +13,99 @@
   [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
   [![Deploy](https://img.shields.io/badge/Deploy-HuggingFace-blueviolet.svg)](https://huggingface.co/)
   
-  [![Star](https://img.shields.io/github/stars/yourusername/rag-chatbot.svg)](https://github.com/yourusername/rag-chatbot/stargazers)
-  [![Forks](https://img.shields.io/github/forks/yourusername/rag-chatbot.svg)](https://github.com/yourusername/rag-chatbot/network/members)
+  [![Star](https://img.shields.io/github/stars/yourusername/chatbot-project.svg)](https://github.com/yourusername/chatbot-project/stargazers)
+  [![Forks](https://img.shields.io/github/forks/yourusername/chatbot-project.svg)](https://github.com/yourusername/chatbot-project/network/members)
   
 </div>
 
 ---
 
-## 📖 **Overview**
+## What This Project Does
 
-Ek powerful chatbot jo aapke documents ko padhkar smart answers deta hai. Jaise aap kisi expert se sawal poochhte hain, waise hi yeh chatbot aapki PDFs, text files, aur documents ke hisaab se jawab deta hai.
+This is a chatbot that reads your documents and gives answers. When you ask a question, it finds the answer from your PDF files, text files, and other documents. It works like talking to an expert who has read all your files.
 
-### ✨ **Key Features**
+---
+
+## Main Features
+
+Here are the things this chatbot can do:
 
 | Feature | Description |
 |---------|-------------|
-| 📄 **Document Support** | PDF, TXT, MD files |
-| 🧠 **Smart Search** | Semantic search jo meaning samajhta hai |
-| 🚀 **Fast Response** | FAISS vector database for quick retrieval |
-| 🔒 **Privacy First** | Data aapke paas rehta hai |
-| 💬 **Chat History** | Purani baatein yaad rakhta hai |
-| 🎯 **Accurate Answers** | Sirf aapke documents se jawab |
-| 🌍 **Hinglish Support** | Hindi + English mix mein jawab |
-| 📱 **Responsive UI** | Mobile aur desktop dono pe kaam kare |
-| 🆓 **Completely Free** | No hidden charges |
-| 🚀 **Easy Deploy** | Hugging Face Spaces pe 1 click mein |
+| 📄 **Reads Documents** | Works with PDF, TXT, and MD files |
+| 🧠 **Smart Search** | Understands the meaning of your question |
+| 🚀 **Fast Answers** | Gives responses quickly |
+| 🔒 **Your Data Stays Safe** | Your files stay on your computer |
+| 💬 **Remembers Chat** | Keeps your conversation history |
+| 🎯 **Accurate Responses** | Only answers from your documents |
+| 🌍 **Hinglish Support** | Answers in Hindi and English mix |
+| 📱 **Works on All Devices** | Mobile and desktop both work |
+| 🆓 **Free to Use** | No cost at all |
+| 🚀 **Easy to Share** | Deploy online with one click |
 
 ---
 
-## 🎯 **Use Cases**
+## Who Can Use This
 
-### 👨‍💼 **For Business**
-- Employee handbook Q&A
-- Policy document search
-- Training materials assistant
+### For Business People
+- Find information in employee handbooks
+- Search through company policies
+- Get help from training materials
 
-### 🎓 **For Students**
-- Textbook search engine
-- Research paper reader
-- Notes organizer
+### For Students
+- Search through textbooks
+- Read research papers
+- Organize study notes
 
-### 👨‍💻 **For Developers**
-- Technical documentation search
-- API documentation assistant
-- Codebase Q&A
+### For Developers
+- Search technical documents
+- Find API information
+- Explore codebases
 
-### 🏠 **For Personal Use**
-- Recipe book search
-- Personal notes assistant
-- Digital diary reader
+### For Personal Use
+- Find recipes from cookbooks
+- Search personal notes
+- Read digital diaries
 
 ---
 
-## 📸 **Screenshots**
+## Screenshots
 
 <div align="center">
   
-  ![Chatbot Demo](https://via.placeholder.com/800x400/4A90D9/FFFFFF?text=Chatbot+Interface)
+  ![Chatbot Screen](https://via.placeholder.com/800x400/4A90D9/FFFFFF?text=Chatbot+Interface)
   
-  *Main Chat Interface*
+  *The main chat screen*
   
-  ![PDF Upload](https://via.placeholder.com/800x400/2ECC71/FFFFFF?text=PDF+Upload)
+  ![Upload Screen](https://via.placeholder.com/800x400/2ECC71/FFFFFF?text=PDF+Upload)
   
-  *Document Upload Feature*
+  *How to upload documents*
   
 </div>
 
 ---
 
-## 🛠️ **Tech Stack**
+## Technology Used
 
 <div align="center">
   
-  | Layer | Technology | Purpose |
-  |-------|------------|---------|
-  | **Frontend** | Streamlit | UI interface |
-  | **LLM** | Google Flan-T5 | Answer generation |
-  | **Embeddings** | MiniLM-L6-v2 | Text to vectors |
-  | **Vector DB** | FAISS | Fast similarity search |
-  | **Framework** | LangChain | RAG pipeline |
-  | **Deployment** | HuggingFace | Free hosting |
+  | Part | Technology | Purpose |
+  |------|------------|---------|
+  | **User Interface** | Streamlit | Shows the chat screen |
+  | **Language Model** | Google Flan-T5 | Creates the answers |
+  | **Text to Numbers** | MiniLM-L6-v2 | Converts text for searching |
+  | **Search System** | FAISS | Finds information quickly |
+  | **Framework** | LangChain | Connects everything together |
+  | **Hosting** | HuggingFace | Free online deployment |
   
 </div>
 
 ---
 
-## 🚀 **Quick Start**
+## Quick Start Guide
 
-### Prerequisites
+### What You Need Before Starting
 
 ```bash
-Python 3.9+
-HuggingFace API Key (Free)
+Python 3.9 or newer
+A free HuggingFace API Key
