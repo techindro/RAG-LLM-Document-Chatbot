@@ -46,8 +46,8 @@ Before starting, ensure you have:
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/document-chatbot.git
-cd document-chatbot
+git clone https://github.com/techindro/RAG-LLM-Document-Chatbot.git
+cd document-RAG-LLM-Document-Chatbot
 
 
 ---
